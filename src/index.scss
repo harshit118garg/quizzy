@@ -1,0 +1,26 @@
+@import "./scss/fonts";
+@import "./scss/variables";
+
+:root {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: $fWhite;
+  background-color: $bgPrimaryColor;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  max-height: 100vh;
+  overflow: hidden;
+}
